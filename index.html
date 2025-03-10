@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFlow - Your Daily News Source</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-newspaper"></i>
+            <h1>NewsFlow</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#socials">Socials</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="categories">
+            <button class="category-btn active" data-category="general">General</button>
+            <button class="category-btn" data-category="technology">Technology</button>
+            <button class="category-btn" data-category="business">Business</button>
+            <button class="category-btn" data-category="sports">Sports</button>
+            <button class="category-btn" data-category="entertainment">Entertainment</button>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search news...">
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="news-container" id="newsContainer">
+            <!-- News articles will be inserted here -->
+        </div>
+    </main>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="socials" class="socials-section">
+        <h1>Follow Us</h1>
+        <div class="social-links">
+            <a href="https://github.com/monicasharma113" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/monica5har" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/monicasharma_0120/" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.co/znhcV4PQHF" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NewsFlow by Monica Sharma . All rights reserved.</p>
+        <p>
+            <a href="mailto:monicasharma0120777@gmail.com">monicasharma0120777@gmail.com</a>
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+ 
