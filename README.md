@@ -1,4 +1,4 @@
-# NewsApplication 
+# NewsFlow 
 NewsFlow is a simple and efficient news application that fetches and displays the latest news from various sources using APIs. Users can browse news articles, read summaries, and access full articles via external links.
 
 # Features
